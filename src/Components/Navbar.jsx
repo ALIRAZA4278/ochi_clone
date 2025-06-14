@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 
 const Navbar = () => {
     return (
@@ -28,7 +28,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-// Neue Montreal
-// Test Founders Grotesk X-Cond SmBd
