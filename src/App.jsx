@@ -1,6 +1,6 @@
 import About from "./Components/About"
 import Eyes from "./Components/Eyes"
-import LandingPage from "./components/LandingPage"
+import LandingPage from "./Components/LandingPage"
 import Marquee from "./Components/Marquee"
 import Navbar from "./components/Navbar"
 
