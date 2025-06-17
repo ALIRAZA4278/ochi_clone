@@ -1,5 +1,8 @@
 import About from "./Components/About"
+import Cards from "./Components/Cards"
 import Eyes from "./Components/Eyes"
+import Features from "./Components/Features"
+import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import LandingPage from "./Components/LandingPage"
 import Marquee from "./Components/Marquee"
@@ -13,7 +16,12 @@ const App = () => {
       <Marquee/>
       <About/>
       <Eyes/>
-    </div>
+      <Features/>
+      <Cards/>
+      <Footer/>
+      {/* 2.10 */}
+
+    </div>    
   )
 }
 
