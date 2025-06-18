@@ -3,7 +3,12 @@ import React from 'react'
 const About = () => {
     return (
         <>
-            <div className='w-full p-[6vw] bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black font-["Neue_Montreal"]' >
+            <div 
+         data-scroll 
+         data-scroll-section
+         data-scroll-speed="-.3"
+
+       className='w-full      p-[6vw] bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-black font-["Neue_Montreal"]' >
                 <h1 className='font-["Neue_Montreal"] text-[4vw] leading-[4.5vw]'>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
 
                 {/* 1 */}

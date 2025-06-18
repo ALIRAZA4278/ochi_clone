@@ -2,12 +2,26 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const Marquee = () => {
+  const marqueeText = "We are ochi";
+
   return (
-    <div className='w-full py-20 rounded-tl-3xl rounded-tr-3xl bg-[#004D43]'>
-      <div className="text border-t-2 border-b-2 border-zinc-300 flex gap-10 whitespace-nowrap overflow-hidden">
-        <motion.h1 initial={{x:0}} animate={{x: "-100%"}} transition={{ease: "linear", repeat: Infinity, duration: 5}}  className='text-8xl text-[20vw] leading-none font-["Founders_Grotesk_X_Condensed"] font-semibold -mb-[7vw] uppercase pt-5'>We are ochi </motion.h1>
-        <motion.h1 initial={{x:0}} animate={{x: "-100%"}} transition={{ease: "linear", repeat: Infinity, duration: 5}}  className='text-8xl text-[20vw] leading-none font-["Founders_Grotesk_X_Condensed"] font-semibold -mb-[7vw] uppercase pt-5'>We are ochi </motion.h1>
-        <motion.h1 initial={{x:0}} animate={{x: "-100%"}} transition={{ease: "linear", repeat: Infinity, duration: 5}}  className='text-8xl text-[20vw] leading-none font-["Founders_Grotesk_X_Condensed"] font-semibold -mb-[7vw] uppercase pt-5'>We are ochi </motion.h1>
+    <div 
+      data-scroll 
+      data-scroll-speed=".1" 
+      className='w-full md:py-20 py-10 rounded-tl-3xl rounded-tr-3xl bg-[#004D43]'
+    >
+      <div className="text border-t-2 border-b-2 border-zinc-300 flex whitespace-nowrap overflow-hidden">
+        {[...Array(3)].map((_, i) => (
+          <motion.h1
+            key={i}
+            initial={{ x: "0" }}
+            animate={{ x: "-100%" }}
+            transition={{ ease: "linear", repeat: Infinity, duration: 5 }}
+            className='pr-10 text-[10vw] md:text-[20vw] leading-none font-["Founders_Grotesk_X_Condensed"] font-semibold md:-mb-[7vw] uppercase pt-5'
+          >
+            {marqueeText}
+          </motion.h1>
+        ))}
       </div>
     </div>
   )

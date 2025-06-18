@@ -20,7 +20,7 @@ const Eyes = () => {
 
     return (
         <div className='eyes w-full h-screen overflow-hidden' >
-            <div className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
+            <div data-scroll data-scroll-section data-scroll-speed="-.7" className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
                 <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex justify-center gap-10">
                     <div className="w-[15vw] h-[15vw] bg-zinc-200 rounded-full justify-center flex items-center">
                         <div className="relative w-2/3 h-2/3 bg-zinc-900 rounded-full ">
@@ -43,4 +43,4 @@ const Eyes = () => {
 }
 
 export default Eyes
-1.49
+ 
