@@ -41,7 +41,7 @@ const Header = () => {
                             {item}
                         </a>
                     ))}
-                    <div className="absolute top-5 left-[95%]">
+                    <div className="absolute top-5 left-[90%]">
                         <AiFillCloseSquare className="text-3xl" onClick={() => setIsMenuOpen(false)} />
                     </div>
                 </div>

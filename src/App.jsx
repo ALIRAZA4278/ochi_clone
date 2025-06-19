@@ -8,6 +8,7 @@ import LandingPage from "./Components/LandingPage"
 import Marquee from "./Components/Marquee"
 import LocomotiveScroll from 'locomotive-scroll';
 import Ready from "./Components/Ready"
+import Clients from "./Components/Clients"
 
 
 
@@ -20,12 +21,13 @@ const App = () => {
       <LandingPage/>
        <Marquee/>
        <About/>
-      {/* <Eyes/>
-      <Features/>
+       <Eyes/>
+     <Features/>
+     <Clients/>
       <Cards/>
-      <Ready/> 
-      {/* <Footer/>     */}
-      {/* 2.10 */}
+      <Ready/>  
+       <Footer/>      
+
 
     </div>    
   )

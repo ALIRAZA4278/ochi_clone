@@ -5,7 +5,7 @@ const LandingPage = () => {
 
   return (
     <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen bg-zinc-900 pt-1 '>
-      <div className='textstructure mt-52 md:px-20 max-[850px]:px-5 max-[850px]:text-center max-[850px]:mt-32'>
+      <div className='textstructure mt-52 md:px-20 max-[850px]:px-5 max-[850px]:text-center max-[850px]:mt-32 '>
         {["We Create", "Eye-opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker">
